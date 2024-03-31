@@ -2,10 +2,10 @@ package main
 
 func main() {
 	const (
-		a = 1 << iota
-		b
-		c
-		d
-		e
+		myConst1 = 1 << iota
+		myConst2
+		myConst3
+		myConst4
+		myConst5
 	)
 }
