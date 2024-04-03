@@ -2,22 +2,20 @@ package main
 
 import "fmt"
 
-const (
-	firstNum = iota
-	secondNum
-)
-
-var count = 0
+var i, j = 0, 1
 
 func main() {
-	fibonacci(firstNum, secondNum, 23)
+	fibonacci(23)
 }
 
-func fibonacci(i int, j int, n int) {
-	if count == 23 {
+func fibonacci(n int) {
+	if n == 0 {
 		return
 	}
-	count++
-	fmt.Println(i)
-	fibonacci(j, i+j, n)
+	fib := i
+	fmt.Println(fib)
+	i = j
+	j += fib
+	n--
+	fibonacci(n)
 }
