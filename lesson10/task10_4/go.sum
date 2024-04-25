@@ -1,0 +1,4 @@
+github.com/automacon-gromoff/v2_module v1.0.0 h1:PJPwFS1UJas0KDF7EWoDJ9G+sv/KOmTYwyue5QJflGo=
+github.com/automacon-gromoff/v2_module v1.0.0/go.mod h1:N4shzo/Imk2LevXPQCkmH0ga59l5qjsiMRmHfQqVjJc=
+github.com/automacon-gromoff/v2_module/v2 v2.0.0 h1:Hn5IfPeNCVbJDyMIgQ2NIR4T5kFlg6z96VZw9Ti7tFQ=
+github.com/automacon-gromoff/v2_module/v2 v2.0.0/go.mod h1:aJA1KgWX+VUkwFBy6cCLhUz2XzeeY9Gub9OJkOxFcM0=
