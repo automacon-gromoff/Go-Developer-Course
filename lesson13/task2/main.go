@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"log"
 )
 
 type contract struct {
@@ -20,7 +21,7 @@ func main() {
 
 	str, err := json.Marshal(c)
 	if err != nil {
-		fmt.Println(err)
+		log.Fatalln("error:", err)
 	}
 	fmt.Printf("%+v", string(str))
 }

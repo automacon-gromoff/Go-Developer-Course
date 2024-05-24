@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/xml"
 	"fmt"
+	"log"
 )
 
 type contract struct {
@@ -38,7 +39,7 @@ func main() {
 
 	err := xml.Unmarshal([]byte(x), &c)
 	if err != nil {
-		fmt.Println("error:", err)
+		log.Fatalln("error:", err)
 	}
 	fmt.Printf("%+v", c)
 }

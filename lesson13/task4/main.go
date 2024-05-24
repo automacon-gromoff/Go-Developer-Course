@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/xml"
 	"fmt"
+	"log"
 )
 
 type contract struct {
@@ -27,7 +28,7 @@ func main() {
 
 	res, err := xml.MarshalIndent(cc, "", "  ")
 	if err != nil {
-		fmt.Println("error:", err)
+		log.Fatalln("error:", err)
 	}
 	fmt.Println(xml.Header, string(res))
 }
