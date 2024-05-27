@@ -14,7 +14,7 @@ type contract struct {
 
 func main() {
 	c := contract{
-		Number:   1,
+		Number:   2,
 		Landlord: "Остап",
 		tenat:    "Шура",
 	}
